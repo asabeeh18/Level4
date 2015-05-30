@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rodrigueztomas.navigationdrawer.TheOtherFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:text="Change notification tone"
+        android:id="@+id/sound"
+        style="@style/chavabutton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:text="Enable Vibration"
+        android:id="@+id/vibration"
+        style="@style/chavabutton"
+        android:layout_height="70dp"
+        android:layout_width="200dp"
+        android:layout_gravity="center_horizontal|top" />
+</FrameLayout>
